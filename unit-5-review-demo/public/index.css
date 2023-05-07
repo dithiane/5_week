@@ -1,0 +1,178 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background-color: #191030;
+    margin-bottom: 60px;
+}
+
+h1 {
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 56px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.app {
+    display: flex;
+}
+
+.app > * {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left > * {
+    margin-left: 40px;
+}
+
+.left > h2 {
+    margin-bottom: 60px;
+}
+
+aside {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 300px;
+    padding: 30px;
+    border: black solid 1px;
+    background-color: #693060
+}
+
+form > h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+form > button {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.radio {
+    display: flex;
+}
+
+.country-card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.country-card > h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.wform-wrapper {
+    position: relative;
+    margin-top: 60px;
+}
+
+.wform-wrapper > .cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,.6);
+}
+
+#fighters-with-weapons > h3 {
+    margin: 30px;
+    text-align: center;
+    color: #888888;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+#fighters-with-weapons > div {
+    margin-top: 60px;
+}
+
+#fighters-with-weapons > div > h3 {
+    font-size: 28px;
+    color: #bbbbbb;
+}
+
+#fighters-with-weapons > div > h4 {
+    font-size: 22px;
+    color: #bbbbbb;
+    margin-left: 20px;
+}
+
+#fighters-with-weapons > div > h3 > span {
+    font-size: 28px;
+    color: orange;
+}
+
+#fighters-with-weapons > div > span {
+    font-size: 20px;
+    color: #888888;
+    display: block;
+    margin-left: 20px;
+}
+
+.weapon-container {
+    margin-left: 40px;
+}
+
+.weapon-container {
+    margin-left: 40px;
+}
+
+.weapon-container > div > h5 {
+    font-size: 22px;
+    color: orange;
+}
+
+.weapon-container > div > span {
+    display: block;
+    font-size: 20px;
+    color: #888888;
+    margin-left: 20px;
+}
+
+.weapon-container > div > button {
+    display: block;
+    padding: 4px 15px;
+    margin: 0px;
+    color: white;
+    background-color: #ff4488;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+input, button, select {
+    color: black;
+}

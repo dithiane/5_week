@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fighter App</h1>
+    <div class="app">
+        <div class="left">
+            <h2>Registration</h2>
+            <form  id="fform">
+                <h3>Register a fighter</h3>
+                Name: <input id="fname"/>
+                Power Level: <input id="fpower"/>
+                HP: <input id="fhp"/>
+                Figher Type: <input id="ftype"/>
+                <button>Submit</button>
+            </form>
+            <div class="wform-wrapper">
+                <div class="cover"></div>
+                <form id="wform">
+                    <div class="cover"></div>
+                    <h3>Assign a Weapon<br/>to a Fighter</h3>
+                    Weapon Name: <input id="wname"/>
+                    Power Level: <input id="wpower"/>
+                    Owner: <select id="wowner">
+                        <option value="" disabled selected>Select an Owner</option>
+                    </select>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Registered and<br/>Equipped Fighters</h2>
+            <img id="spinner" class="hide" src="spin.gif"/>
+            <div id="fighters-with-weapons"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+    <script src="index.js"></script>
+</body>
+</html>
